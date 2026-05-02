@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url(Images/Beach_Background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav {
+    background-color: rgb(4, 98, 153);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: white;
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#homeContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18rem 2rem;
+}
+
+#socials li { 
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#home_intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin: 0 4rem;
+}
+
+.socialIcons {
+    width: 25px;
+    height: 25px;
+}
