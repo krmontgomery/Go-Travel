@@ -63,3 +63,39 @@ nav a {
     width: 25px;
     height: 25px;
 }
+
+#aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18rem 2rem;
+}
+
+#aboutMain {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#ourTeam {
+    margin-top: 2rem;
+}
+
+.team-member {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 15px;
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  /* Flexbox row for team members */
+  .team-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
