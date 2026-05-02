@@ -149,7 +149,6 @@ nav a {
     resize: none;
 }
 
-/* Submit Button */
 #submitBtn {
     background-color: rgb(0, 180, 90);
     color: white;
@@ -163,4 +162,43 @@ nav a {
 
 #submitBtn:hover {
     background-color: rgb(0, 150, 75);
+}
+
+#results {
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding-bottom: 40px;
+}
+
+.result-card {
+    background: rgba(8, 67, 116, 0.2);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+.result-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+
+.result-card img {
+    width: 75%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.result-card h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: white;
+}
+
+.result-card p {
+    font-size: 1rem;
+    color: white;
 }
