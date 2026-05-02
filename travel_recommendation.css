@@ -77,6 +77,7 @@ nav a {
     margin: 40px auto;
     padding: 0 20px;
     text-align: center;
+    color: white;
 }
 
 #ourTeam {
@@ -84,7 +85,7 @@ nav a {
 }
 
 .team-member {
-    background: #ffffff;
+    background-color: rgba(23, 104, 141, 0.5);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -92,10 +93,74 @@ nav a {
     flex: 1;
     min-width: 250px;
   }
-  
-  /* Flexbox row for team members */
-  .team-row {
+
+.team-row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
+}
+
+#contactContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18rem 2rem;
+}
+
+#contactContainer {
+    margin: auto;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#contactContainer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contactForm label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#contactForm input,
+#contactForm textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+}
+
+#contactForm textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Submit Button */
+#submitBtn {
+    background-color: rgb(0, 180, 90);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: rgb(0, 150, 75);
+}
