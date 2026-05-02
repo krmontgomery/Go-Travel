@@ -174,7 +174,7 @@ nav a {
 }
 
 .result-card {
-    background: rgba(8, 67, 116, 0.2);
+    background: rgba(253, 253, 253, 0.815);
     border-radius: 12px;
     padding: 15px;
     text-align: center;
@@ -195,10 +195,10 @@ nav a {
 .result-card h3 {
     margin: 10px 0;
     font-size: 1rem;
-    color: white;
+    color: black;
 }
 
 .result-card p {
     font-size: 1rem;
-    color: white;
+    color: black;
 }
